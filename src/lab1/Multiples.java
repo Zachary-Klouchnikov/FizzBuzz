@@ -2,14 +2,13 @@ package lab1;
 
 public class Multiples {
 
-    public static void main(String[] args) {
-        System.out.println(multiples(10, 3, 5));
+    public static void main(String[] args) {System.out.println(multiples(1000, 3, 5));
     }
 
     static int multiples(int n, int a, int b) {
         int i = 1;
         int j = 0;
-        while (i < n) {
+        while (i < n - 1) {
             i++;
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % a == 0;
