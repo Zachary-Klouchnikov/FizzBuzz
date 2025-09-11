@@ -5,11 +5,11 @@ public class Multiples {
     public static void main(String[] args) {System.out.println(multiples(1000, 3, 5));
     }
 
-    static int multiples() {
+    public static int multiples() {
         return(multiples(1000, 3, 5));
     }
 
-    static int multiples(int n, int a, int b) {
+    public static int multiples(int n, int a, int b) {
         int i = 1;
         int j = 0;
         while (i < n - 1) {
